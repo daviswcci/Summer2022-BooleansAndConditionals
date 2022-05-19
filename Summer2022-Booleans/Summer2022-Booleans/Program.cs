@@ -76,10 +76,6 @@ bool isRainy = !isSunny;
 //     false && true
 //         false
 
-// == equivalence op (returns true if two things are equal)
-// != (returns true if two things are not equal)
-
-
 // Conditionals - If/Else
 // if something is true, perform an action. If the conditions are all false, perform another action instead
 
@@ -114,3 +110,52 @@ else
 {
     Console.WriteLine("There are some clouds in the sky!");
 }
+
+// Comparison Operators
+
+// Equivalence Operator - ==
+// Hand you a value of true if the left and right values are equivalent (equal)
+// values do not have to be numbers
+// 5 == 5 -> true
+// 13 == 5 -> false
+if(num == 3)
+{
+    Console.WriteLine("Our number is 3!");
+}
+
+// Inequality Operator - !=
+// Hands you a value of true if the left and right values are NOT equivalent (not equal)
+// values do not have to be numbers
+// 5 != 5 -> false
+// 13 != 5 -> true
+// a != b   is the same as !(a == b)
+if (num2 != 17)
+{
+    Console.WriteLine("Num2 is not equal to 17!");
+}
+
+// Comparison Operators - ( > , < , >= , <= )
+// Converts numbers into booleans
+// a > b hands you a value of true if a is greater than b
+// a < b hands you a value of true if a is less than b
+// a >= b hands you a value of true if a is greater than OR EQUAL to b
+// a <= b hands you a value of true if a is less than OR EQUAL to b
+
+//User Input Example
+Console.WriteLine("Is today your birthday? Y/N");
+string condInput = Console.ReadLine();
+condInput = condInput.ToUpper(); // capitalizes all letters in our string
+if (condInput == "Y" || condInput == "YES")
+{
+    Console.WriteLine("Happy Birthday!");
+} 
+else if (condInput == "N" || condInput == "NO")
+{
+    Console.WriteLine("Maybe tomorrow!");
+}
+else
+{
+    Console.WriteLine("I guess we'll never know!");
+}
+
+// DaViS != Davis
