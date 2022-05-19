@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Summer2022-Booleans", "Summer2022-Booleans\Summer2022-Booleans.csproj", "{81A85C7A-F362-42BF-8ACD-9D6806D59504}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81A85C7A-F362-42BF-8ACD-9D6806D59504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A85C7A-F362-42BF-8ACD-9D6806D59504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A85C7A-F362-42BF-8ACD-9D6806D59504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A85C7A-F362-42BF-8ACD-9D6806D59504}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13943065-2777-4924-BB80-8C890E78EC11}
+	EndGlobalSection
+EndGlobal
